@@ -1,4 +1,4 @@
-#h1 {
+﻿#h1 {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 24px;
 	color: #00F;
@@ -29,4 +29,19 @@
 #h5 {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 11px;
+}
+
+/* Schöne Buttons für das Formular */
+input[type=submit] {
+  background-color: #0077cc; /* Blau */
+  color: white;             /* Weißer Text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;        /* Abgerundete Ecken */
+  cursor: pointer;           /* Zeiger beim Hover */
+}
+
+input[type=submit]:hover {
+  background-color: #005fa3; /* Dunkleres Blau beim Hover */
 }

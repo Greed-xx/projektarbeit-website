@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <title>w w w . f e n s t e r – k l u g e . d e</title>
 <link href="style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.auto-style1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+}
+.auto-style2 {
+	text-decoration: underline;
+}
+</style>
 </head>
 
 <body>
@@ -42,26 +51,55 @@
         <td height="44" colspan="2" id="h4">Kontakt</td>
         </tr>
       <tr>
-        <td width="300" height="228"><p id="h5">Fensterbau Kluge           </p>
-          <p><span id="h5">Weseler Straße 192 <br>
-            47169 Duisburg ( Marxloh)          </span></p>
-          <p><span id="h5">Telefon (0203) 40 94 17 <br>
-            Telefax (0203) 40 94 87</span></p>
+        <td width="300" style="height: 125px"><p id="h5" class="auto-style2">Fensterbau Kluge           </p>
+          <p><span class="auto-style1">Muster </span><span id="h5">Straße 123 <br>
+            47123 Duisburg</span></p>
+          <p><span id="h5">Telefon (0203) 00 00 00 <br>
+            Telefax (0203) 00 00 00</span></p>
           <p><span id="h5"> Bankverbindung: <br>
-            Stadtsparkasse Duisburg <br>
-            Kto.-Nr. 200 020 261<br>
-            BLZ 350 500 00 <br>
-            Steuer-Nr. 107/5077/1340</span>
-          </p>
-          <p>&nbsp;</p></td>
-        <td id="h5"><p>Ausstellung:          </p>
-          <p>Kaiser-Fried<span id="h5">rich Str. 31 <br>
-            Telefon (0203) 48 14 399 </span>          </p>
+            Hier könnte eine Bankverbindung stehen</span></p>
+          </td>
+        <td id="h5" style="height: 125px"><p>Ausstellung:          </p>
+          <p><span id="h5">Muster Straße 456 <br>
+            Telefon (0203) 00 00 00 </span>          </p>
           <p><br>
-          mail: <a href="mailto:info@fenster-kluge.de">info@fenster-kluge.de</a></p>
+          Öffnungszeiten: Mo-Fr: 10:00 - 18:00</p>
           <p>&nbsp;</p>
-          <p>Erstellt durch: <a href="mailto:thomas-bensch@gmx.de">Thomas Bensch</a></p></td>
+          </td>
       </tr>
+      <tr>
+        <td colspan="2" id="h5">
+        
+<h2>Kontaktformular</h2>
+
+<form id="kontaktFormular" onsubmit="zeigeErfolgsmeldung(); return false;">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Ihr Name" required><br><br>
+
+  <label for="email">E-Mail:</label><br>
+  <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse" required><br><br>
+
+  <label for="nachricht">Nachricht:</label><br>
+  <textarea id="nachricht" name="nachricht" rows="5" cols="40" placeholder="Ihre Nachricht" required></textarea><br><br>
+
+  <input type="submit" value="Absenden">
+</form>
+
+<div id="erfolgsmeldung" style="display:none; margin-top:20px; color:green;">
+  <p><strong>Vielen Dank für Ihre Nachricht.</strong></p>
+  <p><em>Hinweis: Das Formular sendet keine echten Daten – es dient nur der Darstellung.</em></p>
+</div>
+
+<script>
+function zeigeErfolgsmeldung() {
+  document.getElementById("kontaktFormular").style.display = "none";
+  document.getElementById("erfolgsmeldung").style.display = "block";
+}
+</script>
+
+        
+        </td>
+        </tr>
       <tr>
         <td colspan="2" id="h5">© 2025 Thomas Bensch – Projektarbeit für die 
 		Westfälische Hochschule</td>
