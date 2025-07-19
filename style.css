@@ -1,0 +1,32 @@
+#h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #00F;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: normal;
+}
+#h2 {
+	color: #FFF;
+	background-color: #09F;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	word-spacing: 5px;
+}
+#h3 {
+	background-color: #03F;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: underline;
+	text-align: center;
+}
+#h4 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+#h5 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+}
