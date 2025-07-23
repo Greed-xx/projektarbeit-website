@@ -38,42 +38,36 @@ a {
   text-decoration: none;
 }
 
-
-/* Schöne Buttons für das Formular */
+/* Button für das Formular */
 input[type=submit] {
-  background-color: #0077cc; /* Blau */
-  color: white;             /* Weißer Text */
+  background-color: #0077cc; /
+  color: white;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
-  border-radius: 5px;        /* Abgerundete Ecken */
-  cursor: pointer;           /* Zeiger beim Hover */
+  border-radius: 5px;     
+  cursor: pointer;        
 }
 
 input[type=submit]:hover {
-  background-color: #005fa3; /* Dunkleres Blau beim Hover */
+  background-color: #005fa3; 
 }
 
 
-/* Hover-Effekt für Text-Links unter Bildern */
-.h3 a {
-  transition: color 0.3s ease, transform 0.2s ease, text-shadow 0.3s ease;
-}
 
-/* Hover-Effekt für alle Menü-Links */
 .h2 a, .h3 a {
   transition: color 0.3s ease, transform 0.2s ease, text-shadow 0.3s ease;
 }
 
 .h2 a:hover, .h3 a:hover {
-  color: #FFD700; /* Goldgelb als Beispiel */
-  transform: scale(1.2); /* Text wird leicht größer */
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.5); /* sanfter Schatten */
+  color: #FFD700; 
+  transform: scale(1.2); 
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5); 
 }
 
-/* Aktiver Menüpunkt */
+
 .h2 a.active, .h3 a.active {
-  color: #FFD700; /* Gleiche Farbe wie beim Hover */
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.5); /* Optional: Schatten */
-  transform: scale(1.2); /* Optional: leicht vergrößert */
+  color: #FFD700; 
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5); 
+  transform: scale(1.2); 
 }
